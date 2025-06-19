@@ -40,6 +40,13 @@ function showScoreTable() {
 
 // Reset score (optional function)
 function resetScore() {
-     localStorage.setItem('score', JSON.stringify({ correct: 0, wrong: 0 }));
-     showScoreTable();
+     let sure = false;
+     if (confirm("Are you sure you want to reset the score?")) {
+          sure = true;
+     } 
+
+     if(sure) {
+          localStorage.setItem('score', JSON.stringify({ correct: 0, wrong: 0 }));
+          showScoreTable();
+     }
 }
