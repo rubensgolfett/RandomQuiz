@@ -1,9 +1,7 @@
 :root {
-     --dark-blue: #024059;
-     --blue: #026873;
-     --light-green: #04BF8A;
-     --dark-green: #025940;
-     --green: #03A64A;
+     --dark-blue: #042940;
+     --blue: #005C53;
+     --yellow: #DBF227;
 }
 
 .dark-blue {
@@ -11,22 +9,13 @@
      color: #f8f9fa;
 }
 
-.blue {
+.blue, .btn-success {
      background-color: var(--blue);
      color: aliceblue;
 }
 
-.light-green {
-     background-color: var(--light-green)
-     
-}
-
-.dark-green {
-     background-color: var(--dark-green);
-}
-
-.green {
-     background-color: var(--green);
+.yellow {
+     background-color: var(--yellow);
 }
 
 body {
