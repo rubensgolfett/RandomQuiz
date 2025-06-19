@@ -1,0 +1,46 @@
+:root {
+     --dark-blue: #024059;
+     --blue: #026873;
+     --light-green: #04BF8A;
+     --dark-green: #025940;
+     --green: #03A64A;
+}
+
+.dark-blue {
+     background-color: var(--dark-blue);
+     color: #f8f9fa;
+}
+
+.blue {
+     background-color: var(--blue);
+     color: aliceblue;
+}
+
+.light-green {
+     background-color: var(--light-green)
+     
+}
+
+.dark-green {
+     background-color: var(--dark-green);
+}
+
+.green {
+     background-color: var(--green);
+}
+
+body {
+     background-color: #f8f9fa;
+}
+
+.container {
+     margin-top: 80px;
+}
+
+.card {
+     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.btn-primary {
+     width: 100%;
+}
